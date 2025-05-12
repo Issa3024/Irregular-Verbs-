@@ -1,0 +1,119 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f8ff;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  color: #d60000;
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+table {
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  max-width: 1000px;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+thead {
+  background-color: #000;
+  color: #fff;
+}
+
+th, td {
+  border: 1px solid #999;
+  padding: 12px;
+  text-transform: capitalize;
+  font-weight: bold;
+}
+
+.grupo-a { background-color: #a5d6a7; }
+.grupo-b { background-color: #fff59d; }
+.grupo-c { background-color: #90caf9; }
+.grupo-d { background-color: #ffcc80; }
+.grupo-e { background-color: #ce93d8; }
+.grupo-f { background-color: #ff8a80; }
+.grupo-g { background-color: #f48fb1; }
+.grupo-h { background-color: #c5e1a5; }
+.grupo-i { background-color: #b2ebf2; }
+.grupo-j { background-color: #e1bee7; }
+.grupo-k { background-color: #fbc02d; }
+.grupo-l { background-color: #81d4fa; }
+.grupo-m { background-color: #ffb74d; }
+.grupo-n { background-color: #ef9a9a; }
+.grupo-o { background-color: #d7ccc8; }
+.grupo-p { background-color: #aed581; }
+.grupo-q { background-color: #ffd54f; }
+.grupo-r { background-color: #ff8a65; }
+.grupo-s { background-color: #ba68c8; }
+
+td:hover {
+  background-color: #ffe082;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.group-title {
+  background-color: #333 !important;
+  color: white;
+  font-weight: bold;
+  font-size: 1.1em;
+  text-align: center;
+  cursor: default;
+  pointer-events: none;
+}
+
+/* Estilos para móviles */
+@media (max-width: 600px) {
+  table, thead, tbody, th, td, tr {
+    display: block;
+  }
+
+  thead {
+    display: none;
+  }
+
+  td {
+    position: relative;
+    padding-left: 50%;
+    text-align: left;
+    border: 1px solid #ccc;
+  }
+
+  td::before {
+    position: absolute;
+    left: 10px;
+    top: 12px;
+    font-weight: bold;
+    color: #555;
+    white-space: nowrap;
+  }
+
+  td:nth-child(1)::before { content: "Infinitive"; }
+  td:nth-child(2)::before { content: "Past"; }
+  td:nth-child(3)::before { content: "Past Participle"; }
+  td:nth-child(4)::before { content: "Spanish"; }
+
+  .group-title {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+    background-color: #333 !important;
+    color: white;
+    font-weight: bold;
+    font-size: 1.1em;
+    padding: 10px;
+    border: 1px solid #999;
+    margin-top: 10px;
+  }
+
+  .group-title:hover {
+    background-color: #333 !important;
+  }
+}
