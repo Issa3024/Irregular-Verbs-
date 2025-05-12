@@ -47,7 +47,7 @@ const verbos = [
   // Grupo H
   { grupo: "h", infinitive: "lose", past: "lost", participle: "lost", spanish: "perder" },
   { grupo: "h", infinitive: "shoot", past: "shot", participle: "shot", spanish: "disparar" },
-  { grupo: "h", infinitive: "get", past: "got", participle: "got", spanish: "obtener" },
+  { grupo: "h", infinitive: "get", past: "got", participle: "gotten", spanish: "obtener" },
   { grupo: "h", infinitive: "sit", past: "sat", participle: "sat", spanish: "sentarse" },
 
   // Grupo I
